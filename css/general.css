@@ -1,0 +1,93 @@
+h1 {
+    color: rgb(247, 72, 119);
+    font-size: 50px;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 1px pink;
+    /* letter-spacing: 5px; */
+    /* word-spacing: 50px; */
+}
+
+/* p {
+    text-indent: 50px;
+} */
+
+#current_page1 {
+    background-color: rgb(173,255,255);
+}
+#current_page2 {
+    background-color: rgb(173,255,173);
+}
+#current_page3 {
+    background-color: rgb(255,214,173);
+}
+#current_page4 {
+    background-color: rgb(255,173,255);
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_links {
+    text-decoration: none;
+}
+
+ol > li{
+    list-style-type: nomal;
+}
+
+.abox {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255,214,173);
+    margin-bottom: 20px;
+    padding: 50px;
+    border: 5px solid rgb(247, 72, 119);
+    border-radius: 30px;
+    /* margin: 50px 100px 150px; */
+    /* overflow: scroll; */
+    /* box-sizing: content-box; */
+    box-shadow: 8px 8px 3px lemonchiffon;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: inline-block;
+    position: relative;
+}
+
+#box1 {
+    /* background-image: url("../images/toyota.jpeg");
+    background-repeat: no-repeat; */
+    background-size: 75px 75px;
+    /* background-position: center center;
+    background-attachment: scroll; */
+    position: relative;
+    /* top: 50px;
+    left: 70px */ */
+    left: 250px;
+    z-index: 1;
+}
+table {
+    /* empty-cells: hide;
+    border-collapse: collapse; */
+    border-spacing: 5px 5px;   
+} 
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: maroon;
+    color: white;
+}
+
+/* label {
+    background-color: rgb(173,255,255);
+} */
+
+/* 
+CSS Comment (CMD /)
+color: rgb(173,255,255);
+color: rgb(173,255,173);
+color: rgb(255,214,173);
+color: rgb(255,173,255); 
+*/
