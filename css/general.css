@@ -25,6 +25,7 @@ h1 {
 #current_page4 {
     background-color: rgb(255,173,255);
 }
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,6 +33,10 @@ h1 {
     text-decoration: none;
 }
 
+nav {
+    padding: 10px 10px;
+    text-align: center;
+}
 ol > li{
     list-style-type: nomal;
 }
